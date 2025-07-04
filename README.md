@@ -10,7 +10,6 @@ Selain itu, Firebase Cloud Messaging digunakan untuk mengirimkan notifikasi lang
 *Proyek ini terdiri dari tiga komponen utama: kode ESP32 di PlatformIO, backend FastAPI, dan aplikasi Android. Setiap komponen terintegrasi untuk menciptakan sistem keamanan kendaraan yang terhubung, responsif, dan dapat dikendalikan dari jarak jauh.
 
 ## Teknologi
-## Teknologi
 - ESP32 (PlatformIO)
 - FastAPI (Backend)
 - MongoDB Atlas
