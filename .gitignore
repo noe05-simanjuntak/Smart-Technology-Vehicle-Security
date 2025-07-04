@@ -1,0 +1,28 @@
+# Android
+.gradle/
+.idea/
+local.properties
+*.iml
+build/
+captures/
+app/google-services.json
+
+# Firebase
+serviceAccountKey.json
+
+# Backend
+.env
+__pycache__/
+*.pyc
+venv/
+
+# PlatformIO
+.pio/
+.platformio/
+.vscode/
+*.elf
+*.bin
+*.hex
+
+# Logs
+*.log

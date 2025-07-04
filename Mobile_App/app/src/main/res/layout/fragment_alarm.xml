@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/tvAlarmTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan Alarm"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnChangeMusic"
+        style="@style/AlarmButtonStyle"
+        android:text="Nada Alarm" />
+
+    <Button
+        android:id="@+id/btnRepeat"
+        style="@style/AlarmButtonStyle"
+        android:text="Ulangi Alarm" />
+
+    <Button
+        android:id="@+id/btnVibrate"
+        style="@style/AlarmButtonStyle"
+        android:text="Mode Getar" />
+
+    <Button
+        android:id="@+id/btnDeleteAlarm"
+        style="@style/AlarmButtonStyle.Danger"
+        android:text="Hapus Alarm" />
+</LinearLayout>

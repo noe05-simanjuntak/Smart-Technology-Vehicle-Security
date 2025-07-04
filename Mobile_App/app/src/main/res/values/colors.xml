@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Colors -->
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="black_dark">#212121</color>         <!-- Baru -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_pure">#FFFFFF</color>         <!-- Baru -->
+    <color name="green">#4CAF50</color>
+    <color name="gray">#424242</color>
+    <color name="gray_light">#757575</color>         <!-- Baru -->
+    <color name="red">#F44336</color>
+    <color name="red_dark">#D32F2F</color>           <!-- Baru -->
+
+    <!-- Elegant and Modern Colors -->
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryDarkColor">#3700B3</color>
+    <color name="accentColor">#03DAC5</color>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="buttonColorActive">#4CAF50</color>
+    <color name="buttonColorInactive">#BDBDBD</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+
+    <!-- Save Mode Colors -->
+    <color name="saveModeOn">#A5D6A7</color>
+    <color name="saveModeOff">#388E3C</color>
+
+    <!-- Error Colors -->
+    <color name="errorColor">#F44336</color>
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+
+    <!-- Divider and Border Colors -->
+    <color name="dividerColor">#E0E0E0</color>
+    <color name="borderColor">#BDBDBD</color>
+
+    <!-- Tambahan: Transparansi & Efek Visual -->
+    <color name="formBackgroundSemi">#CCFFFFFF</color>
+    <color name="overlayDark">#44000000</color>
+    <color name="shadowColor">#33000000</color>
+
+    <!-- Tombol Gradient Utama -->
+    <color name="primaryButtonGradientStart">#7C4DFF</color>
+    <color name="primaryButtonGradientEnd">#6200EA</color>
+
+    <!-- Gradient Warna Save/Security Mode -->
+    <color name="modeOnStart">#66BB6A</color>
+    <color name="modeOnEnd">#43A047</color>
+    <color name="modeOffStart">#BDBDBD</color>
+    <color name="modeOffEnd">#9E9E9E</color>
+
+    <color name="blue">#2196F3</color>
+</resources>

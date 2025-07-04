@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vehicle Security</string>
+    <string name="hint_name">Nama Lengkap</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_vehicle_plate">Plat Nomor</string>
+    <string name="hint_vehicle_type">Jenis Kendaraan</string>
+    <string name="hint_vehicle_brand">Merk Kendaraan</string>
+    <string name="hint_vehicle_color">Warna Kendaraan</string>
+    <string name="btn_register">Daftar</string>
+    <string name="toast_fill_all_fields">Please fill all fields</string>
+    <string name="toast_registration_successful">Registration successful!</string>
+    <string-array name="vehicle_types">
+        <item>Roda Dua</item>
+        <item>Roda Empat</item>
+    </string-array>
+    <string-array name="vehicle_brands">
+        <item>Honda</item>
+        <item>Toyota</item>
+        <item>Suzuki</item>
+        <item>Daihatsu</item>
+        <item>Mitsubishi</item>
+        <item>BMW</item>
+        <item>Mercedes-Benz</item>
+        <item>Nissan</item>
+        <item>Kia</item>
+        <item>Ford</item>
+    </string-array>
+</resources>
