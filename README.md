@@ -19,3 +19,6 @@ Selain itu, Firebase Cloud Messaging digunakan untuk mengirimkan notifikasi lang
 
 ## Catatan
 *File rahasia seperti `.env`, 'serviceAccountKey.json dan' `google-services.json` tidak disertakan demi keamanan.
+
+## Flowchart System
+![Flowcahrt System](images/FlowchartSystem.png)
