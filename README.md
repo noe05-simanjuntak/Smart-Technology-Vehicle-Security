@@ -1,15 +1,16 @@
 # IoT-Based Smart Vehicle Security System
 
-## Deskripsi
-*Proyek ini mengembangkan sistem keamanan kendaraan cerdas berbasis Internet of Things (IoT). Sistem dirancang untuk mendeteksi aktivitas mencurigakan seperti getaran atau pembukaan jok kendaraan dengan menggunakan sensor SW-420 dan reed switch yang dihubungkan ke mikrokontroler ESP32. 
-Ketika ada potensi gangguan, sistem akan mengirimkan peringatan melalui notifikasi ke aplikasi Android pengguna, dan dapat memicu alarm otomatis.
+## Description
+*This project develops a smart vehicle security system based on the Internet of Things (IoT). The system is designed to detect suspicious activity such as vibrations or opening vehicle seats using SW-420 sensors and reed switches connected to an ESP32 microcontroller.
+When a potential intrusion is detected, the system sends an alert via notification to the user's Android app, which can trigger an automatic alarm.
 
-*Backend dari sistem ini dibangun menggunakan FastAPI dan terhubung ke MongoDB Atlas untuk menyimpan data deteksi sensor secara real-time. Komunikasi antara perangkat dan server menggunakan protokol MQTT melalui broker EMQX.
-Selain itu, Firebase Cloud Messaging digunakan untuk mengirimkan notifikasi langsung ke perangkat Android. Aplikasi Android dikembangkan menggunakan Java, dengan tampilan interaktif yang dilengkapi fitur login, pengaturan mode keamanan, dan pengendalian alarm.
+*The system's backend is built using FastAPI and connects to MongoDB Atlas to store real-time sensor detection data. Communication between the device and the server uses the MQTT protocol through an EMQX broker.
 
-*Proyek ini terdiri dari tiga komponen utama: kode ESP32 di PlatformIO, backend FastAPI, dan aplikasi Android. Setiap komponen terintegrasi untuk menciptakan sistem keamanan kendaraan yang terhubung, responsif, dan dapat dikendalikan dari jarak jauh.
+Furthermore, Firebase Cloud Messaging is used to send notifications directly to Android devices. The Android app is developed using Java, with an interactive interface that includes login features, security mode settings, and alarm control.
 
-## Teknologi
+*This project consists of three main components: the ESP32 code in PlatformIO, the FastAPI backend, and the Android app. Each component integrates to create a connected, responsive, and remotely controllable vehicle security system.
+
+## Technology
 - ESP32 (PlatformIO)
 - FastAPI (Backend)
 - MongoDB Atlas
@@ -17,8 +18,8 @@ Selain itu, Firebase Cloud Messaging digunakan untuk mengirimkan notifikasi lang
 - Firebase Cloud Messaging
 - Android Studio
 
-## Catatan
-*File rahasia seperti `.env`, 'serviceAccountKey.json dan' `google-services.json` tidak disertakan demi keamanan.
+## Note
+*Secret files such as `.env`, `serviceAccountKey.json`, and `google-services.json` are not included for security reasons.
 
 ## Flowchart System
 ![Flowcahrt System](images/FlowchartSystem.png)
